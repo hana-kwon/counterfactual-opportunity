@@ -1,0 +1,34 @@
+{
+  "full_statement_wording_from_appendix": true,
+  "note": "Conditions with the 50 statements (P_RBP, S_RBP, L_RBP) match only when the AER online appendix PDF is placed in data/raw/, because two variable labels are cut at 80 characters.",
+  "by_condition": {
+    "P0": {
+      "prompts": 1004,
+      "hash_matches": 1004
+    },
+    "P_R": {
+      "prompts": 1004,
+      "hash_matches": 1004
+    },
+    "P_B": {
+      "prompts": 1004,
+      "hash_matches": 1004
+    },
+    "P_RB": {
+      "prompts": 1004,
+      "hash_matches": 1004
+    },
+    "P_RBP": {
+      "prompts": 1004,
+      "hash_matches": 1004
+    },
+    "S_RBP": {
+      "prompts": 1004,
+      "hash_matches": 1004
+    },
+    "L_RBP": {
+      "prompts": 1004,
+      "hash_matches": 1004
+    }
+  }
+}

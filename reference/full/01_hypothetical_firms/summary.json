@@ -1,0 +1,103 @@
+{
+  "prompts": 936,
+  "hash_check": {
+    "answers_claude-haiku-5-5.jsonl": {
+      "answers": 936,
+      "prompt_hash_matches": 936
+    },
+    "answers_claude-sonnet-5-5.jsonl": {
+      "answers": 936,
+      "prompt_hash_matches": 936
+    },
+    "answers_qwen2.5-3b.jsonl": {
+      "answers": 936,
+      "prompt_hash_matches": 936
+    }
+  },
+  "accuracy_objective_A": [
+    {
+      "model": "Haiku 5.5",
+      "info": "X",
+      "n": 72,
+      "pct_correct": 100.0,
+      "pct_abstain": 100.0
+    },
+    {
+      "model": "Haiku 5.5",
+      "info": "XB",
+      "n": 72,
+      "pct_correct": 23.61111111111111,
+      "pct_abstain": 23.61111111111111
+    },
+    {
+      "model": "Haiku 5.5",
+      "info": "XR",
+      "n": 72,
+      "pct_correct": 100.0,
+      "pct_abstain": 100.0
+    },
+    {
+      "model": "Haiku 5.5",
+      "info": "XRB",
+      "n": 72,
+      "pct_correct": 97.22222222222221,
+      "pct_abstain": 19.444444444444446
+    },
+    {
+      "model": "Qwen2.5-3B",
+      "info": "X",
+      "n": 72,
+      "pct_correct": 0.0,
+      "pct_abstain": 0.0
+    },
+    {
+      "model": "Qwen2.5-3B",
+      "info": "XB",
+      "n": 72,
+      "pct_correct": 0.0,
+      "pct_abstain": 0.0
+    },
+    {
+      "model": "Qwen2.5-3B",
+      "info": "XR",
+      "n": 72,
+      "pct_correct": 0.0,
+      "pct_abstain": 0.0
+    },
+    {
+      "model": "Qwen2.5-3B",
+      "info": "XRB",
+      "n": 72,
+      "pct_correct": 41.66666666666667,
+      "pct_abstain": 0.0
+    },
+    {
+      "model": "Sonnet 5.5",
+      "info": "X",
+      "n": 72,
+      "pct_correct": 100.0,
+      "pct_abstain": 100.0
+    },
+    {
+      "model": "Sonnet 5.5",
+      "info": "XB",
+      "n": 72,
+      "pct_correct": 88.88888888888889,
+      "pct_abstain": 88.88888888888889
+    },
+    {
+      "model": "Sonnet 5.5",
+      "info": "XR",
+      "n": 72,
+      "pct_correct": 100.0,
+      "pct_abstain": 100.0
+    },
+    {
+      "model": "Sonnet 5.5",
+      "info": "XRB",
+      "n": 72,
+      "pct_correct": 100.0,
+      "pct_abstain": 16.666666666666664
+    }
+  ]
+}

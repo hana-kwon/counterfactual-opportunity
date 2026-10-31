@@ -1,0 +1,18 @@
+{
+  "hypothetical_firms_all_match": true,
+  "simulation_check": {
+    "draws": 200,
+    "grant_policy_mean_estimate": 0.3960587897032701,
+    "grant_policy_mean_truth": 0.41023929518390106,
+    "grant_policy_mean_bias": -0.01418050548063103,
+    "grant_policy_mc_se_of_bias": 0.010713588475869562,
+    "grant_interaction_mean_estimate": 1.6677469392386006,
+    "grant_interaction_mean_truth": 1.6619133348077626,
+    "grant_interaction_95_coverage": 0.965,
+    "lending_policy_mean_estimate": 388.03416317085606,
+    "lending_policy_mean_truth": 352.1855517044767,
+    "lending_policy_mean_bias": 35.84861146637932,
+    "lending_policy_mc_se_of_bias": 15.270512452320421,
+    "lending_policy_95_coverage": 0.955
+  }
+}

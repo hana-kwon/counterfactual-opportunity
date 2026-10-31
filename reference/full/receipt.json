@@ -1,0 +1,111 @@
+{
+  "mode": "full",
+  "started": "2026-10-31T13:49:15",
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.7.1-arm64-arm-64bit",
+    "numpy": "1.24.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "sklearn": "1.3.2",
+    "matplotlib": "3.9.4"
+  },
+  "steps": [
+    {
+      "step": "01_hypothetical_firms",
+      "seconds": 1.5,
+      "exit_code": 0
+    },
+    {
+      "step": "03_youwin_build",
+      "seconds": 1.4,
+      "exit_code": 0
+    },
+    {
+      "step": "04_egypt_build",
+      "seconds": 4.4,
+      "exit_code": 0
+    },
+    {
+      "step": "05_grant_policy_value",
+      "seconds": 6.5,
+      "exit_code": 0
+    },
+    {
+      "step": "06_grant_heterogeneity",
+      "seconds": 6.3,
+      "exit_code": 0
+    },
+    {
+      "step": "07_lending_evaluation",
+      "seconds": 30.7,
+      "exit_code": 0
+    },
+    {
+      "step": "09_figures",
+      "seconds": 3.2,
+      "exit_code": 0
+    },
+    {
+      "step": "10_compare_reference",
+      "seconds": 0.6,
+      "exit_code": 0
+    }
+  ],
+  "not_done": [
+    "no language model was called; cached answers are scored",
+    "no replication data or row-level file is written outside outputs/<run>/work"
+  ],
+  "seconds_total": 54.6,
+  "inputs": {
+    "data/hypothetical_firms/answers_claude-haiku-5-5.jsonl": "5875fdb8f99bbd4beba83b55bd5d56589a42dc8838927b879b187a25f99d7222",
+    "data/hypothetical_firms/answers_claude-sonnet-5-5.jsonl": "1fefdc2478dbae3d7f0e3ccad279c73e04765dfe6699833fff217615fd8603f2",
+    "data/hypothetical_firms/answers_qwen2.5-3b.jsonl": "216b9d5f470ec9787548d0ba234b947c22e268a34f11eb248b1c13784117974c",
+    "config/params.json": "71fa356f4ec62933ebd8615edf25e35d99de28808825c67863240656c07a0b8d",
+    "data/model_outputs/egypt_answers_claude-sonnet-5-5.csv": "5c4e520754b02a9d72c49ef6f6daa537201f456d2e3b957f881cff8a834b7dad",
+    "data/model_outputs/youwin_answers_claude-sonnet-5-5.csv": "00e47a26c21285a576e124437c51ebaf0cb92a7f0defb0625bec5f819a531fd3",
+    "config/proposal_numbers.json": "02ceb7c529f5041bcc437df1e51f5eccfe6dd77f7219ee89c881ea6d5f1b7c6a",
+    "data/raw/192297-V1/Clean Data/16-ABA-All-Merged.dta": "52ea28304285d0d5dda19a23729ef0e571d8eaae7d429d363e8bbd5b9adf33c4",
+    "data/raw/192297-V1/Clean Data/10-ABA-baseline-clean.dta": "e2484fcf62ecca864b3caf08f5d74c8e472bd43af9adea7eb88fdba5f7484930",
+    "data/raw/192297-V1/Clean Data/20-ABA-ML-group.dta": "6be69bd9b049327605ad92a3864106b3321542314b84928f38a49c6e6d99e26d",
+    "data/raw/113101-V1/data/ThirdFollowup.dta": "29f2848b3d976d6173acbf36551ab1ad9ac3fe1196fe40c60e475a3674d3c1ca",
+    "data/raw/113101-V1/data/BaselineandFirstFollowup.dta": "5ee08f5972ea8d797646f949f8727c7d1414ac4284f837fe24ca0f1e42231728"
+  },
+  "outputs": {
+    "01_hypothetical_firms/cases.json": "364e49a0eeaa426f4a96f59e8559bbb86f19360dca8aa32fce1c73ea9a091596",
+    "01_hypothetical_firms/information_accuracy.csv": "4e52a2bce2d0618d721bf0d7fc1afc145271e873efe86ec5e5f2f5c42c434636",
+    "01_hypothetical_firms/prompts.jsonl": "53e4a712825f08215bc983e9d86c1de52d172f19356429b8f13c3f73650f9769",
+    "01_hypothetical_firms/summary.json": "74ee947cf794dfada9ad4817663df8929439a1dd6d47e98a4a1a8a5e4135c95c",
+    "01_hypothetical_firms/truth.csv": "9593d511283f14fd824a0a2946c2aa8569363d40da4bd2bdf9fc6f347554aa17",
+    "03_youwin_build/aer_table4_check.csv": "6f4c85e528e82fd25c2ab26caeefc40a2696c4582a562dccfe7c4f4c532be651",
+    "03_youwin_build/prompt_hash_check.json": "53a49e0136d5e8ce30e0c62f61b27a7d34cc799a4e9d28ab01e26d6ebeb0f196",
+    "04_egypt_build/design_check.json": "69f5c133d75c65f46fda63e5ccb3517598220ecc973618e0790a06d8f634cf5d",
+    "04_egypt_build/prompt_hash_check.json": "cc59a44bb38a89dcf6f9f0ca4e90524aa75e7b9d8278663bef7b7845f7f47045",
+    "05_grant_policy_value/policy_contrasts.csv": "ae23f3f425b04c549a128b77d67c1b8b7015b86178b468e0cb47e0637222a668",
+    "05_grant_policy_value/summary.json": "8c2989657bd2a0ee292228211aaca013d5d23272bac358456fdb590b581a03fc",
+    "06_grant_heterogeneity/difference_bootstrap.csv": "ab45ab2afaa1c48bc719fca3383fa7ac97e1096735c827e98bec25549a879703",
+    "06_grant_heterogeneity/interactions.csv": "0827c4344aebab4421f4ff3f02ad72b8511fef583bd28f27e3b00790389e4bf4",
+    "06_grant_heterogeneity/summary.json": "cd8f55c8b4d13262e278db938c5c75d297db90d4dbef2aa70fbbe18bbfe52eab",
+    "07_lending_evaluation/confirmatory.csv": "0cf5635f16f4b37ed0db66e1b6b24874c93c3bfd05c25d883859aa3099008bc7",
+    "07_lending_evaluation/forecasts_by_condition.csv": "8d87d5b147861124065770fdd791468eb21097038c5a8375c758f7bc1a79129e",
+    "07_lending_evaluation/overlap.csv": "191dea3aec598bfb631252658f1a8475a5295e8f1702c52dd5ac93a5e502e1b5",
+    "07_lending_evaluation/policy_values.csv": "8201948804c4fb5407d9e9a58054d731dfb9b47ed4d627e89496fe29346c983f",
+    "07_lending_evaluation/summary.json": "072b40d903e6ca2a252fb57379063728a85a541ef6c788ab226e83c78f53af30",
+    "09_figures/fig1_information_accuracy.pdf": "1193beba32a1b6be8f01826017f44ea03df51ff8dab0edbb51040476e401f9f8",
+    "09_figures/fig1_information_accuracy.png": "be2c190cd5aa8c4d081346c07948612e8880c42bbc119a78a215596c9f7b21a2",
+    "09_figures/fig2_grant_policy.pdf": "9bc4b0208ecbfc4a00809ead8eab21be9078ddcc83a29619dc17851c3b3a9372",
+    "09_figures/fig2_grant_policy.png": "bdff8407e86d3ec18cb1a8b85d406a411a833c390d51ed0e90efe84f7b2cf501",
+    "09_figures/fig3_grant_heterogeneity.pdf": "54a34dd5049cadb115b90492396fea98fe92c91a5ed2679132377f2caf0abd4d",
+    "09_figures/fig3_grant_heterogeneity.png": "20a300a438d8827165c893201ccd90751fb54deb81295eb8676d50f35b43f1b7",
+    "09_figures/fig4_lending.pdf": "fbd104ad92a49e91bb5f1619a80a5f7e61ebb31f1a897e0f41622cbbd931f41d",
+    "09_figures/fig4_lending.png": "35c7391df4ac75724f96f4db259cd994eebd6a731e3c346720e85c2d4a2f119e",
+    "10_compare_reference/comparison.csv": "c6b48b7d0bfd9163f7e1e38c0b64096a6b8e5b754e10bade3ae2831ede4ace7b",
+    "10_compare_reference/summary.json": "3fb6b684139666ca0b9cab01c0734be829baa8beb8cc984c8d4cc30115210d72",
+    "work/grant_frame.pkl": "a82fef0ae73eb5ec99df53b14345d8c82e5ba4f6da3c1cc522202b35baff3e92",
+    "work/grant_prompts.jsonl": "7e6c0692d1a24ee98da28f60a367f80b7055995dcef6db463b0f3ef21dbc96e5",
+    "work/lending_bench.pkl": "fcfcbbec29bb7663a46f19d034dd98efab3960384dbbab8a791795fb99f78b99",
+    "work/lending_cl.pkl": "d130023e584c56cb461dac820cab59440e7c667eb5458da1a23c92ce9e93c775",
+    "work/lending_prof.pkl": "50963240a4aa61c83726249f0ef1345c3d41afff104c6ff394a697d2d2d750ed",
+    "work/lending_prompts.jsonl": "1f0dbef2af2165a954417fbee0b93e41ab9f4a1dc793b3a501a9d071962a58f6"
+  }
+}

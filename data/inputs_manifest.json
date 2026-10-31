@@ -1,0 +1,18 @@
+{
+  "shipped_in_repo": {
+    "data/model_outputs/youwin_answers_claude-sonnet-5-5.csv": {"sha256": "00e47a26c21285a576e124437c51ebaf0cb92a7f0defb0625bec5f819a531fd3", "rows": 7364, "what": "Claude Sonnet 5.5 answers for the 1,841 YouWiN! experimental applicants x 2 information sets x 2 tasks; keyed by the replication package's uid; one answer per prompt (the last successful call)"},
+    "data/model_outputs/egypt_answers_claude-sonnet-5-5.csv": {"sha256": "5c4e520754b02a9d72c49ef6f6daa537201f456d2e3b957f881cff8a834b7dad", "rows": 7028, "what": "Claude Sonnet 5.5 answers for the 1,004 clients x 7 conditions; keyed by the replication package's client_key"},
+    "data/hypothetical_firms/answers_claude-sonnet-5-5.jsonl": {"sha256": "1fefdc2478dbae3d7f0e3ccad279c73e04765dfe6699833fff217615fd8603f2", "rows": 936},
+    "data/hypothetical_firms/answers_claude-haiku-5-5.jsonl": {"sha256": "5875fdb8f99bbd4beba83b55bd5d56589a42dc8838927b879b187a25f99d7222", "rows": 936},
+    "data/hypothetical_firms/answers_qwen2.5-3b.jsonl": {"sha256": "216b9d5f470ec9787548d0ba234b947c22e268a34f11eb248b1c13784117974c", "rows": 936}
+  },
+  "user_supplied_in_data_raw": {
+    "113101-V1.zip (openICPSR 113101 V1)": {"sha256_of_reference_copy": "81ae57c7937f7af258baf94a6a2085ae0f3afa52daca12e94305be6544c18be8"},
+    "data/BaselineandFirstFollowup.dta": {"sha256_of_reference_copy": "5ee08f5972ea8d797646f949f8727c7d1414ac4284f837fe24ca0f1e42231728"},
+    "data/ThirdFollowup.dta": {"sha256_of_reference_copy": "29f2848b3d976d6173acbf36551ab1ad9ac3fe1196fe40c60e475a3674d3c1ca"},
+    "Clean Data/16-ABA-All-Merged.dta (openICPSR 192297 V1)": {"sha256_of_reference_copy": "52ea28304285d0d5dda19a23729ef0e571d8eaae7d429d363e8bbd5b9adf33c4"},
+    "Clean Data/20-ABA-ML-group.dta": {"sha256_of_reference_copy": "6be69bd9b049327605ad92a3864106b3321542314b84928f38a49c6e6d99e26d"},
+    "Clean Data/10-ABA-baseline-clean.dta": {"sha256_of_reference_copy": "e2484fcf62ecca864b3caf08f5d74c8e472bd43af9adea7eb88fdba5f7484930"},
+    "AER online appendix PDF (optional)": {"sha256_of_reference_copy": "5b11181fedd88f71cd9620f52b38ec71fcd2d51b26616f43cf0d605d410af1a1"}
+  }
+}

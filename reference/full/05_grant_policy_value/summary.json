@@ -1,0 +1,12 @@
+{
+  "applicants": 1841,
+  "winners": 729,
+  "strata": 23,
+  "responders": 1505,
+  "response_rate_treated": 0.8683127572016461,
+  "response_rate_control": 0.7841726618705036,
+  "nboot": 2000,
+  "main_rule": "Claude A, XR",
+  "value_random": 6.259040324592187,
+  "value_main_rule": 6.348415334950121
+}

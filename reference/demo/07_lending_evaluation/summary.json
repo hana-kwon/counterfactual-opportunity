@@ -1,0 +1,29 @@
+{
+  "answers": 7000,
+  "clients": 1000,
+  "clients_by_arm": {
+    "0": 493,
+    "1": 507
+  },
+  "clients_with_profit_by_arm": {
+    "0": 492,
+    "1": 507
+  },
+  "profit_rows": 1931,
+  "itt_profit_round1": {
+    "estimate": 813.6237851477177,
+    "se": 269.1990558955246,
+    "n_rows": 971
+  },
+  "itt_profit_round2": {
+    "estimate": 910.4872765843002,
+    "se": 300.243385073074,
+    "n_rows": 960
+  },
+  "itt_perfect_repayment": {
+    "estimate": -0.1789051265211689,
+    "se": 0.031595927424691916,
+    "n": 1000
+  },
+  "bonferroni_tests": 4
+}

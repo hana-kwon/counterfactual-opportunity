@@ -1,0 +1,29 @@
+{
+  "_note": "Numbers as printed in the Stage 1 proposal and summary, with the full-precision values of the authors' original analysis run (aggregate estimates only). Used by src/10_compare_reference.py in full mode.",
+  "items": [
+    {"id": "grant_main_rule_value", "text": "6.35 jobs per applicant under the main AI rule", "printed": 6.35, "decimals": 2, "original": 6.348415334950121},
+    {"id": "grant_lottery_value", "text": "6.26 jobs per applicant under the lottery", "printed": 6.26, "decimals": 2, "original": 6.259040324592187},
+    {"id": "grant_main_rule_gain", "text": "main AI rule minus lottery, jobs", "printed": 0.09, "decimals": 2, "original": 0.0893750103579344},
+    {"id": "grant_main_rule_gain_lo", "text": "95% CI lower bound", "printed": -0.37, "decimals": 2, "original": -0.370800793852565},
+    {"id": "grant_main_rule_gain_hi", "text": "95% CI upper bound", "printed": 0.55, "decimals": 2, "original": 0.5475681971597727},
+    {"id": "grant_existing_ai_interaction", "text": "existing businesses: grant x AI score per SD, employment", "printed": 2.30, "decimals": 2, "original": 2.3033486066036675},
+    {"id": "grant_existing_ai_interaction_lo", "text": "95% CI lower bound", "printed": 0.61, "decimals": 2, "original": 0.6057642152399512},
+    {"id": "grant_existing_ai_interaction_hi", "text": "95% CI upper bound", "printed": 4.00, "decimals": 2, "original": 4.000932997967384},
+    {"id": "grant_existing_judges_interaction", "text": "existing businesses: grant x judges' score per SD", "printed": -0.31, "decimals": 2, "original": -0.3095918481195152},
+    {"id": "grant_existing_difference", "text": "AI minus judges coefficient (paired bootstrap)", "printed": 2.61, "decimals": 2, "original": 2.612940454723171},
+    {"id": "grant_existing_difference_lo", "text": "95% CI lower bound", "printed": 0.68, "decimals": 2, "original": 0.6825323683520341},
+    {"id": "grant_existing_difference_hi", "text": "95% CI upper bound", "printed": 4.77, "decimals": 2, "original": 4.765799405670329},
+    {"id": "lending_policy_gain", "text": "larger offer to higher-scoring half vs random, EGP per month", "printed": 1230, "decimals": 0, "original": 1229.9726851851854},
+    {"id": "lending_policy_gain_lo", "text": "unadjusted 95% interval lower bound", "printed": 133, "decimals": 0, "original": 133.38192766147858},
+    {"id": "lending_policy_gain_hi", "text": "unadjusted 95% interval upper bound", "printed": 2327, "decimals": 0, "original": 2326.563442708892},
+    {"id": "lending_ml_gain", "text": "original study's ML predictions vs random (about twice the AI gain)", "printed": 2624, "decimals": 0, "original": 2623.990404040404},
+    {"id": "lending_H1", "text": "adding alternative financing: change in interaction, EGP per SD", "printed": -4378, "decimals": 0, "original": -4377.694843149291},
+    {"id": "lending_H1_lo", "text": "98.75% interval lower bound", "printed": -10037, "decimals": 0, "original": -10036.647077260135},
+    {"id": "lending_H1_hi", "text": "98.75% interval upper bound", "printed": 1281, "decimals": 0, "original": 1281.257390961554},
+    {"id": "lending_H1_mde", "text": "realized minimum detectable difference", "printed": 7566, "decimals": 0, "original": 7565.78008422919},
+    {"id": "lending_repay_itt_pp", "text": "measured change in perfect repayment, percentage points", "printed": -12.9, "decimals": 1, "original": -12.902643714302616},
+    {"id": "lending_overlap_profit", "text": "expected overlap when only the objective changes, profit-gain forecasts", "printed": 0.80, "decimals": 2, "original": 0.7963129722978987},
+    {"id": "lending_overlap_repay", "text": "expected overlap when only the objective changes, repayment forecasts", "printed": 0.51, "decimals": 2, "original": 0.5149023638232272},
+    {"id": "lending_answers", "text": "responses collected", "printed": 7028, "decimals": 0, "original": 7028}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "spearman_ai_judges": {
+    "0": -0.006884004427150764,
+    "1": 0.012388376789733093
+  },
+  "note": "true_slope = OLS slope of the known effect on the standardized score"
+}

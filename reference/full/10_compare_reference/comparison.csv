@@ -1,0 +1,30 @@
+item,produced,printed,rounds_to_printed,description,original_full_precision,abs_diff_vs_original
+Sonnet both facts correct (100%),100.0,100.0,True,,,
+Haiku both facts correct (97%),97.2222222222222,97.0,True,,,
+Qwen both facts correct (42%),41.66666666666667,42.0,True,,,
+"Sonnet withholds, effect only (89%)",88.88888888888889,89.0,True,,,
+"Haiku withholds, effect only (24%)",23.61111111111111,24.0,True,,,
+grant_main_rule_value,6.348415334950121,6.35,True,6.35 jobs per applicant under the main AI rule,6.348415334950121,0.0
+grant_lottery_value,6.259040324592187,6.26,True,6.26 jobs per applicant under the lottery,6.259040324592187,0.0
+grant_main_rule_gain,0.0893750103579344,0.09,True,"main AI rule minus lottery, jobs",0.0893750103579344,0.0
+grant_main_rule_gain_lo,-0.370800793852565,-0.37,True,95% CI lower bound,-0.370800793852565,0.0
+grant_main_rule_gain_hi,0.5475681971597727,0.55,True,95% CI upper bound,0.5475681971597727,0.0
+grant_existing_ai_interaction,2.3033486066036675,2.3,True,"existing businesses: grant x AI score per SD, employment",2.3033486066036675,0.0
+grant_existing_ai_interaction_lo,0.6057642152399512,0.61,True,95% CI lower bound,0.6057642152399512,0.0
+grant_existing_ai_interaction_hi,4.000932997967384,4.0,True,95% CI upper bound,4.000932997967384,0.0
+grant_existing_judges_interaction,-0.3095918481195152,-0.31,True,existing businesses: grant x judges' score per SD,-0.3095918481195152,0.0
+grant_existing_difference,2.612940454723171,2.61,True,AI minus judges coefficient (paired bootstrap),2.612940454723171,0.0
+grant_existing_difference_lo,0.6825323683520341,0.68,True,95% CI lower bound,0.6825323683520341,0.0
+grant_existing_difference_hi,4.765799405670329,4.77,True,95% CI upper bound,4.765799405670329,0.0
+lending_policy_gain,1229.9726851851854,1230.0,True,"larger offer to higher-scoring half vs random, EGP per month",1229.9726851851854,0.0
+lending_policy_gain_lo,133.38192766147858,133.0,True,unadjusted 95% interval lower bound,133.38192766147858,0.0
+lending_policy_gain_hi,2326.563442708892,2327.0,True,unadjusted 95% interval upper bound,2326.563442708892,0.0
+lending_ml_gain,2623.990404040404,2624.0,True,original study's ML predictions vs random (about twice the AI gain),2623.990404040404,0.0
+lending_H1,-4377.694843149291,-4378.0,True,"adding alternative financing: change in interaction, EGP per SD",-4377.694843149291,0.0
+lending_H1_lo,-10036.64707726014,-10037.0,True,98.75% interval lower bound,-10036.647077260135,5.4569682106375694e-12
+lending_H1_hi,1281.257390961557,1281.0,True,98.75% interval upper bound,1281.257390961554,2.9558577807620168e-12
+lending_H1_mde,7565.780084229194,7566.0,True,realized minimum detectable difference,7565.78008422919,3.637978807091713e-12
+lending_repay_itt_pp,-12.902643714302616,-12.9,True,"measured change in perfect repayment, percentage points",-12.902643714302616,0.0
+lending_overlap_profit,0.7963129722978985,0.8,True,"expected overlap when only the objective changes, profit-gain forecasts",0.7963129722978987,1.1102230246251565e-16
+lending_overlap_repay,0.5149023638232272,0.51,True,"expected overlap when only the objective changes, repayment forecasts",0.5149023638232272,0.0
+lending_answers,7028.0,7028.0,True,responses collected,7028.0,0.0

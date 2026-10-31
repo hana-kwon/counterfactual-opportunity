@@ -1,0 +1,312 @@
+{
+ "pairs": [
+  [
+   "R1",
+   "reverse",
+   "bakery",
+   [
+    4,
+    0.8,
+    20
+   ],
+   [
+    1,
+    0.2,
+    15
+   ]
+  ],
+  [
+   "R2",
+   "reverse",
+   "furniture",
+   [
+    6,
+    0.9,
+    30
+   ],
+   [
+    2,
+    0.3,
+    12
+   ]
+  ],
+  [
+   "R3",
+   "reverse",
+   "garments",
+   [
+    10,
+    0.7,
+    18
+   ],
+   [
+    3,
+    0.1,
+    10
+   ]
+  ],
+  [
+   "R4",
+   "reverse",
+   "printing",
+   [
+    5,
+    0.75,
+    16
+   ],
+   [
+    4,
+    0.25,
+    10
+   ]
+  ],
+  [
+   "R5",
+   "reverse",
+   "poultry_feed",
+   [
+    8,
+    0.6,
+    15
+   ],
+   [
+    2,
+    0.2,
+    12
+   ]
+  ],
+  [
+   "S1",
+   "aligned",
+   "bakery",
+   [
+    4,
+    0.5,
+    24
+   ],
+   [
+    1,
+    0.2,
+    5
+   ]
+  ],
+  [
+   "S2",
+   "aligned",
+   "furniture",
+   [
+    6,
+    0.6,
+    30
+   ],
+   [
+    2,
+    0.3,
+    8
+   ]
+  ],
+  [
+   "S3",
+   "aligned",
+   "garments",
+   [
+    5,
+    0.4,
+    20
+   ],
+   [
+    3,
+    0.1,
+    6
+   ]
+  ],
+  [
+   "S4",
+   "aligned",
+   "printing",
+   [
+    8,
+    0.7,
+    40
+   ],
+   [
+    2,
+    0.2,
+    8
+   ]
+  ],
+  [
+   "S5",
+   "aligned",
+   "poultry_feed",
+   [
+    3,
+    0.5,
+    18
+   ],
+   [
+    1,
+    0.25,
+    6
+   ]
+  ],
+  [
+   "V1",
+   "size_trap",
+   "bakery",
+   [
+    2,
+    0.5,
+    20
+   ],
+   [
+    20,
+    0.1,
+    5
+   ]
+  ],
+  [
+   "V2",
+   "size_trap",
+   "furniture",
+   [
+    3,
+    0.4,
+    15
+   ],
+   [
+    18,
+    0.2,
+    4
+   ]
+  ],
+  [
+   "V3",
+   "size_trap",
+   "garments",
+   [
+    1,
+    0.6,
+    25
+   ],
+   [
+    22,
+    0.3,
+    8
+   ]
+  ],
+  [
+   "V4",
+   "size_trap",
+   "printing",
+   [
+    4,
+    0.3,
+    12
+   ],
+   [
+    16,
+    0.1,
+    3
+   ]
+  ],
+  [
+   "V5",
+   "size_trap",
+   "poultry_feed",
+   [
+    2,
+    0.55,
+    30
+   ],
+   [
+    25,
+    0.15,
+    10
+   ]
+  ],
+  [
+   "U1",
+   "unknown",
+   "bakery",
+   [
+    4,
+    null,
+    20
+   ],
+   [
+    1,
+    0.2,
+    15
+   ]
+  ],
+  [
+   "U2",
+   "unknown",
+   "furniture",
+   [
+    6,
+    null,
+    25
+   ],
+   [
+    3,
+    0.3,
+    10
+   ]
+  ],
+  [
+   "U3",
+   "unknown",
+   "garments",
+   [
+    2,
+    null,
+    12
+   ],
+   [
+    8,
+    0.5,
+    20
+   ]
+  ]
+ ],
+ "industry": {
+  "bakery": [
+   "bakes bread and pastries for shops in its town",
+   "a second industrial oven"
+  ],
+  "furniture": [
+   "makes wooden furniture to order",
+   "a computer-controlled cutting machine"
+  ],
+  "garments": [
+   "sews uniforms for schools and employers",
+   "a set of industrial sewing machines"
+  ],
+  "printing": [
+   "prints labels and packaging for local manufacturers",
+   "a digital label press"
+  ],
+  "poultry_feed": [
+   "mixes and bags poultry feed for farms",
+   "a pelleting machine"
+  ]
+ },
+ "system": "You are an analyst at a business support organization that evaluates small firms. Use only the information provided. Answer with a single JSON object and nothing else.",
+ "common": "Rules that hold in this exercise:\n- The organization can give one grant of US$50,000, paid now and not repaid, to one of the two firms.\n- A firm that receives the grant uses it to buy the production equipment named in its file, for certain.\n- A firm that obtains US$50,000 of outside financing buys the same equipment at the same time. Money beyond the cost of the equipment creates no additional employment.\n- There are no other constraints and no effects between the two firms.\n- Use only the facts stated. Do not assume any value that is not stated.",
+ "objective": {
+  "F": [
+   "Question: Which firm has the higher probability of obtaining at least US$50,000 of outside financing within the next 12 months if it does not receive this grant?",
+   "value_1 and value_2: each firm's probability (0-100) of obtaining that financing without the grant"
+  ],
+  "L": [
+   "Question: The organization wants to fund the firm that will be larger. Which firm would employ more people 36 months from now if it received the grant?",
+   "value_1 and value_2: each firm's expected number of employees 36 months from now if it receives the grant"
+  ],
+  "A": [
+   "Question: The organization's goal is the largest expected total employment across both firms 36 months from now. Which firm should receive the grant?",
+   "value_1 and value_2: the expected number of employees that the grant adds at each firm, compared with what that firm would have without the grant"
+  ]
+ }
+}

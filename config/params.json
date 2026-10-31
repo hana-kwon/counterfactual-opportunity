@@ -1,0 +1,21 @@
+{
+  "grant": {
+    "policy_seed": 20261027,
+    "policy_nboot": 2000,
+    "tlearner_seed": 20261027,
+    "heterogeneity_seed": 20261029,
+    "heterogeneity_reps": 2000,
+    "main_rule": "Claude A, XR"
+  },
+  "lending": {
+    "n_primary_tests": 4,
+    "overlap_seed": 20261029,
+    "overlap_reps": 2000
+  },
+  "synthetic": {
+    "seed": 20261031,
+    "grant_applicants": 1800,
+    "lending_clients": 1000,
+    "lending_officers": 160
+  }
+}

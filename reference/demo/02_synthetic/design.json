@@ -1,0 +1,20 @@
+{
+  "grant": {
+    "applicants": 1800,
+    "winners": 722,
+    "strata": 24,
+    "responders": 1451,
+    "mean_true_employment_effect": 2.3873309946173635,
+    "mean_true_effect_existing": 2.585889524877508,
+    "mean_true_effect_new": 2.306010625528831
+  },
+  "lending": {
+    "clients": 1000,
+    "profit_rows": 1931,
+    "officers": 160,
+    "blocks": 306,
+    "larger_offer": 507,
+    "mean_true_profit_gain": 1018.5692853657913,
+    "mean_true_repayment_effect": -0.16447999999999996
+  }
+}
