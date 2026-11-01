@@ -1,10 +1,10 @@
-# Counterfactual Opportunity: Can AI Evaluators of Ventures Target Added Value?
+# Counterfactual Opportunity in Resource Allocation
 
-Research artifact for the Organization Science "AI-Enabled Frontiers" Stage 1 proposal (study short name: Grant Lottery).
+Research artifact for the Organization Science "AI-Enabled Frontiers" Stage 1 proposal "Counterfactual Opportunity in Resource Allocation."
 
 ## What the prototype shows
 
-Allocation decisions require judging which firms would gain most from financing, not which firms will do best. The prototype asks a language model to forecast each firm's outcome with and without financing, ranks firms by the forecast gain (or by other criteria), and scores those rankings against randomized experiments, where the realized effect of financing is identified. It varies what the model is told (information sets) and what it is asked to pursue (objectives) while holding the firm fixed.
+Allocation decisions require judging which firms would gain most from financing, not which firms will do best. The prototype asks a language model to forecast each firm's outcome under a larger and a standard loan offer (Egypt) or with and without a grant (YouWiN!), ranks firms by the forecast gain (or by other criteria), and scores those rankings against randomized experiments, where the realized effect of financing is identified. It varies what the model is told (information sets) and what it is asked to pursue (objectives) while holding the firm fixed.
 
 The repository contains three parts that share one evaluation library (`src/evallib.py`):
 
@@ -89,7 +89,7 @@ The following numbers in the proposal or summary come from the authors' project 
 
 - the 200 real startup descriptions (both models scored all 200 while calling every description insufficient, and declined for every firm when allowed): the inputs are licensed commercial data;
 - Lee (2009) bounds on the YouWiN! main rule (-0.77 to 0.78), the response-reweighting check, the gain among existing applicants only (0.91 jobs), and the re-ask with decimal answers (+0.40): these are supporting or exploratory analyses not ported;
-- the statistical-model row of the proposal's YouWiN! figure refits the model in every bootstrap replication; this repository reports the cross-fitted model without refitting (0.48, -0.02 to 1.05), so that row and the decimal-answer row of the repository's figure differ from the proposal figure;
+- the statistical-model row of the proposal's YouWiN! figure refits the model in every bootstrap replication; this repository reports the cross-fitted model without refitting (0.48, -0.02 to 1.05), so that row differs from the proposal figure, and the proposal figure's decimal-answer row is not in the repository's figure;
 - the measured take-up of the larger and standard offers (86 against 76 percent) and the planned minimum detectable difference (3,337), which come from the original study's Stata tables and the pre-analysis power calculation;
 - the loan officers' recorded forecasts as a benchmark, and the check that the model recognizes the published Egyptian study.
 
@@ -99,11 +99,13 @@ It does not call a language model by default; the cached answers were collected 
 
 ## Citation
 
-If you use this repository, please cite the Organization Science proposal "Counterfactual Opportunity: Can AI Evaluators of Ventures Target Added Value?" and the two source studies:
+If you use this repository, please cite the Organization Science proposal "Counterfactual Opportunity in Resource Allocation" and the two source studies:
 
 - McKenzie, D. (2017). Identifying and spurring high-growth entrepreneurship: Experimental evidence from a business plan competition. American Economic Review 107(8), 2278-2307. Data: openICPSR 113101 V1.
 - Bryan, G., D. Karlan, and A. Osman (2024). Big loans to small businesses: Predicting winners and losers in an entrepreneurial lending experiment. American Economic Review 114(9), 2825-2860. Data: openICPSR 192297 V1.
 
 ## License
 
-To be chosen by the authors. The cached model answers are keyed to identifiers of the public replication packages; use of those packages is governed by their own terms.
+Code (`run_all.py`, `src/` and `config/`) is released under the MIT License; see `LICENSE`. Cached model answers, the hypothetical firm pairs and answer key, reference outputs, figures and documentation (`data/`, `reference/` and the README files) are released under the Creative Commons Attribution 4.0 International License (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+
+The two public replication packages (openICPSR 113101 and 192297) are not redistributed here and remain under their own terms; the README of package 192297 states a Creative Commons noncommercial license. The cached model answers are keyed to identifiers of those packages, and any use that requires the packages is governed by their terms.
